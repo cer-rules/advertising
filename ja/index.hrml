@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>宣伝について - 中央急行電鉄</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-image: url("https://cdn.glitch.global/50592e65-a8c9-4478-b93d-6c253095fdf1/背景画像.jpg?v=1718345831957");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        width: 80%;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      h2 {
+        border-bottom: 2px solid #333;
+        padding-bottom: 10px;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      ul li {
+        padding: 8px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>【宣伝ルール】</h2>
+      <ul>
+        <li>1. サーバールールは厳守</li>
+        <li>2. 同一サーバーの宣伝は1ヶ月に1回まで</li>
+        <li>3. 同一人物による宣伝は1週間に1回まで</li>
+        <li>4. メディアファイルをリンクで送信するのは禁止</li>
+        <li>5. 荒らし関連の宣伝は禁止</li>
+      </ul>
+      <h2>【違反した際の処罰】</h2>
+      <ul>
+        <li>1条・2条・3条・4条違反</li>
+        <ul>
+          <li>・タイムアウト 1時間</li>
+          <li>・警告 +1</li>
+        </ul>
+        <li>5条違反</li>
+        <ul>
+          <li>・永久BAN</li>
+        </ul>
+      </ul>
+    </div>
+  </body>
+</html>
