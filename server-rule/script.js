@@ -7,6 +7,6 @@ window.addEventListener('DOMContentLoaded', () => {
     window.location.href = 'https://rules.cer.f5.si/server-rule/ja/';
   } else {
     // それ以外の場合は `/en` にリダイレクト
-    window.location.href = 'https://rules.cer.f5.si/server-rule/en/';
+    window.location.href = 'https://rules.cer.f5.si/server-rule/en';
   }
 });
