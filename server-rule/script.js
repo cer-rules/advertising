@@ -1,8 +1,8 @@
 window.addEventListener('DOMContentLoaded', () => {
-  // デバイスのデフォルト言語を取得
+  // デバイスのデフォルトの言語を取得
   const userLang = navigator.language || navigator.userLanguage;
 
-  // デバイス言語が日本語の場合は `/ja` にリダイレクト
+  // デバイスのデフォルトの言語が日本語の場合は `/ja` にリダイレクト
   if (userLang.startsWith('ja')) {
     window.location.href = 'https://rules.cer.f5.si/server-rule/ja/';
   } else {
